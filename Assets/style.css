@@ -1,0 +1,28 @@
+/* Global selector */
+*{
+    /* CSS Resetting */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Tag selector*/
+h1,label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Id selector*/
+
+#login{
+    color: blue;
+}
+
+/*Class selector*/
+.main{
+    color: aquamarine;
+}
+
+.form-input{
+    padding: 10px 20px;
+}
