@@ -4,8 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 
+/* Login.html */
+#body{
+    display: flex;
+  justify-content: center;
+}
 
 /*Tag selector*/
 h1,label{
@@ -18,6 +25,23 @@ h1,label{
     color: blue;
 }
 
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    width: 300px;
+    height: 350px; 
+    margin: 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+#button{
+padding: 10px;
+background-color: cornflowerblue;
+}
+
 /*Class selector*/
 .main{
     color: aquamarine;
@@ -26,3 +50,39 @@ h1,label{
 .form-input{
     padding: 10px 20px;
 }
+
+/* End Login.html */
+
+/* Menu.html */
+
+/* .nav{
+    display: flex;
+    gap: 640px;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    gap: 50px;
+} */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: aquamarine;
+}
+.nav > div{
+    padding: 10px;
+}
+
+.nav > div > ul{
+    display: flex;
+    gap: 20px;
+}
+
+.nav > div > ul > li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* End Menu.html */
