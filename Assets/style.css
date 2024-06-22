@@ -1,3 +1,15 @@
+:root{
+    --primary:  rgb(194, 191, 191);
+    --secondary: cornflowerblue;
+    --white:whitesmoke;
+}
+
+button{
+    padding: 10px;
+    background-color: var(--secondary);
+}
+
+
 /* Global selector */
 *{
     /* CSS Resetting */
@@ -69,8 +81,9 @@ background-color: cornflowerblue;
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    background-color: aquamarine;
+    padding: 20px;
+    background-color: rgb(17, 17, 17);
+    color: whitesmoke;
 }
 .nav > div{
     padding: 10px;
@@ -86,3 +99,47 @@ background-color: cornflowerblue;
     cursor: pointer;
 }
 /* End Menu.html */
+
+/* Main.html */
+.section1{
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    background-color:var(--primary);
+}
+
+.image{
+    margin: 40px;
+    
+
+}
+
+.content{
+    width: 450px;
+    margin: 158px;
+    font-size: 20px;
+}
+
+#img{
+    border-radius: 10px;
+    width: auto;
+    height: 400px;
+}
+
+.form{
+    margin: 5px;
+    background-color: var(--primary);
+    height: 100px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-btn{
+    border-radius: 10px;
+}
+
+input{
+    padding: 10px 20px;
+}
